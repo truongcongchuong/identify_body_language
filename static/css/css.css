@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding:0px;
+}
+.display {
+    border: 1px solid rgb(194, 193, 193);
+    height: 450px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.video {
+    border: 1px solid black;
+    height: 400px;
+    width: 40%;
+    margin: auto ;
+    border-radius: 10px;
+}
+video {
+    border: 2px solid rgb(129, 172, 247);
+}
+#icon {
+    font-size: 100px;
+    margin: auto;
+    color: rgb(170, 168, 168);
+}
+#resulft {
+    margin: 20px;
+    font-size: 1.4em;
+    font-weight: 800;
+    color: rgb(207, 199, 199);
+}
+.button {
+    display: flex;
+    height: 100px;
+    width: 50%;
+    margin: 20px auto;
+}
+.button button {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    border-radius: 90px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    background: rgb(237, 241, 250);
+}
+.button button:hover {
+    background: rgb(224, 231, 249);
+}
+#record, #reset {
+    font-size: 1.6em;
+}

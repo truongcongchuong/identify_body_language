@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web ditector body language</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/css.css')}}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="display">
+        <video autoplay controls id="video" class="video"></video>
+        <i class='bx bx-chevrons-right' id="icon"></i>
+        <div class="video">
+            <p id="resulft">Bản Dịch</p>
+        </div>
+    </div>
+    <div class="button">
+        <button id="record"><i class='bx bx-play' id="icon-record"></i></button>
+        <button id="reset"><i class='bx bx-reset'></i></button>
+        <button id="pandemic">dịch</button>
+    </div>
+    <script src="{{url_for('static', filename='js/js.js')}}"></script>
+</body>
+</html>
